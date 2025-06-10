@@ -1,0 +1,56 @@
+{
+  "manifest_version": 3,
+  "name": "Google Workspace Creator",
+  "version": "2.0",
+  "description": "Create new Google Sheets, Slides, Docs, and Forms documents with one click",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "contextMenus"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Create Google Workspace Documents",
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "commands": {
+    "create-sheets": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S"
+      },
+      "description": "Create new Google Sheets"
+    },
+    "create-slides": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+P"
+      },
+      "description": "Create new Google Slides"
+    },
+    "create-docs": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+D"
+      },
+      "description": "Create new Google Docs"
+    },
+    "create-forms": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F"
+      },
+      "description": "Create new Google Forms"
+    }
+  }
+} 
