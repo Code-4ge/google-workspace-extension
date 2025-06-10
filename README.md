@@ -1,4 +1,4 @@
-# Google Workspace Creator - Microsoft Edge Extension
+# Google Workspace Creator - Web Browser Extension
 
 ![Version](https://img.shields.io/badge/version-2.0-green.svg)
 ![Platform](https://img.shields.io/badge/platform-Microsoft%20Edge-blue.svg)
