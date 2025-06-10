@@ -32,7 +32,7 @@ A modern, lightweight Google Workspace extension that enables instant creation o
 
 1. **Download or Clone** this repository:
    ```bash
-   git clone https://github.com/yourusername/google-workspace-extension.git
+   git clone https://github.com/Code-4ge/google-workspace-extension.git
    ```
 
 2. **Open Microsoft Edge / Chrome** and navigate to:
